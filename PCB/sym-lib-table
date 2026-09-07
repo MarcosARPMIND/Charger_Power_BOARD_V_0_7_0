@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RCM_EV_01_METER")(type "KiCad")(uri "${KIPRJMOD}/LIBRARY_KICAD_SYMBOLS/RCM_EV_01_METER.kicad_sym")(options "")(descr ""))
+)

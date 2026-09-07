@@ -1,0 +1,35 @@
+# ====================================================================
+# KiCad Temporary and Lock Files (ALWAYS IGNORE)
+# ====================================================================
+*.lck
+~*
+*.bak
+*_bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.vcm
+fp-info-cache
+
+# ====================================================================
+# Local History and Backup Folders (IGNORE)
+# ====================================================================
+**/.history/
+**/_restore_backup_*/
+
+# ====================================================================
+# User-Specific Workspace Configurations
+# ====================================================================
+PCB/*.kicad_prl
+PCB_PANELIZE/*.kicad_prl
+
+# ====================================================================
+# Manufacturing Outputs (Optional)
+# ====================================================================
+# Uncomment the line below if you do not want to track Gerbers in Git
+# GERBER_FILES/
+
+
+# Office temporary lock files
+.~lock.*

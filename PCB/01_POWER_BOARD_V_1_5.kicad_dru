@@ -1,0 +1,71 @@
+(version 1)
+
+# =========================================================================
+# REGRAS PARA PLACAS DE 4 CAMADAS (JLCPCB permite limites mais estritos no interior)
+# =========================================================================
+
+# Camadas Externas (F.Cu / B.Cu): Limite standard de 5mil (0.127mm)
+(rule "JLCPCB: Largura minima de pista (Camadas Externas)"
+	(constraint track_width (min 5mil))
+	(layer outer)
+	(condition "A.Type == 'track'"))
+
+(rule "JLCPCB: Espacamento minimo pista-pista (Camadas Externas)"
+	(constraint clearance (min 5mil))
+	(layer outer)
+	(condition "A.Type == 'track' && B.Type == 'track'"))
+
+# Camadas Internas (In1.Cu / In2.Cu): JLCPCB suporta até 3.5mil em 4-layers
+(rule "JLCPCB: Largura minima de pista (Camadas Internas)"
+	(constraint track_width (min 3.5mil))
+	(layer inner)
+	(condition "A.Type == 'track'"))
+
+(rule "JLCPCB: Espacamento minimo pista-pista (Camadas Internas)"
+	(constraint clearance (min 3.5mil))
+	(layer inner)
+	(condition "A.Type == 'track' && B.Type == 'track'"))
+
+
+# =========================================================================
+# SILKSCREEN (MÁSCARA DE COMPONENTES)
+# =========================================================================
+
+(rule "JLCPCB: Espessura minima do texto do Silk"
+	(constraint text_thickness (min 0.15mm))
+	(layer "?.Silkscreen"))
+
+(rule "JLCPCB: Distancia minima do Pad para o Silk"
+	(constraint silk_clearance (min 0.15mm))
+	(layer outer)
+	(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
+
+
+# =========================================================================
+# FUROS E CLEARANCES AVANÇADOS
+# =========================================================================
+
+# Evita que brocas muito juntas partam a parede de fibra (0.5mm para nets diferentes)
+(rule "JLCPCB: Distancia furo a furo (Nets diferentes)"
+	(constraint hole_to_hole (min 0.5mm))
+	(condition "A.Net != B.Net"))
+
+# Vias da mesma Net podem ficar ligeiramente mais perto (0.254mm)
+(rule "JLCPCB: Distancia via a via (Mesma Net)"
+	(constraint hole_to_hole (min 0.254mm))
+	(condition "A.Type == 'via' && B.Type == 'via' && A.Net == B.Net"))
+
+# Furos Castelados (Pads cortados na margem da placa) - Correção do sublinhado para KiCad 10
+(rule "JLCPCB: Tamanho minimo de furo castelado"
+	(constraint hole_size (min 0.6mm))
+	(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'"))
+
+# Distância do furo metalizado (PTH) para pistas próximas
+(rule "JLCPCB: Clearance de furo PTH para Pista"
+	(constraint hole_clearance (min 0.33mm))
+	(condition "A.isPlated() && B.Type == 'track'"))
+
+# Distância do furo NÃO metalizado (NPTH) para pistas próximas - Correção sem usar PadType
+(rule "JLCPCB: Clearance de furo NPTH para Pista"
+	(constraint hole_clearance (min 0.254mm))
+	(condition "A.Type == 'pad' && !A.isPlated() && B.Type == 'track'"))
