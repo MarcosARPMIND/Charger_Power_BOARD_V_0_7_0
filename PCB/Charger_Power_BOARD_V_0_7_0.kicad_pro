@@ -564,7 +564,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Charger_Power_BOARD_V_0_6_0.kicad_pro",
+    "filename": "Charger_Power_BOARD_V_0_7_0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -616,7 +616,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "..\\..\\..\\..\\..\\Downloads\\Power_Board_BOM_25_02.csv",
+    "bom_export_filename": "Zhaga_COMMV3.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ";",
@@ -635,12 +635,6 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -681,74 +675,8 @@
         },
         {
           "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
           "show": false
         },
         {
@@ -759,134 +687,38 @@
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Distribuidor",
-          "name": "Distribuidor",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Link",
-          "name": "Link",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Ref",
           "name": "Ref",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
+          "label": "MPN",
+          "name": "MPN",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
+          "label": "Distributor",
+          "name": "Distributor",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
+          "label": "Distributor_PN",
+          "name": "Distributor_PN",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Alternativa",
-          "name": "Alternativa",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Destribuidor",
-          "name": "Destribuidor",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part Description",
-          "name": "Part Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Link",
-          "name": "Mouser Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field6",
-          "name": "Field6",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field4",
-          "name": "Field4",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field8",
-          "name": "Field8",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field5",
-          "name": "Field5",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field7",
-          "name": "Field7",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": false
         }
       ],
@@ -895,7 +727,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Ref"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -941,18 +773,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Charger_Power_BOARD_V_0_6_0.kicad_sch",
-        "name": "Charger_Power_BOARD_V_0_6_0",
+        "filename": "Charger_Power_BOARD_V_0_7_0.kicad_sch",
+        "name": "Charger_Power_BOARD_V_0_7_0",
         "uuid": "d90afa92-2c2e-4829-9dae-7324c7a34110"
       }
     ],
-    "used_designators": "U7,U9,U12-13,TR4-5,T8-11,IC28-44,J1,J3-5,J7,J10-15,J19-22,R103-104,R107-108,R141-214,D19-20,D32-43,C83,C103-153,Y5-6,#PWR15-17,#PWR94,#PWR100,#PWR120,#PWR125-126,#PWR134,#PWR136-139,#PWR151-199",
+    "used_designators": "Q7-10,U7,U9,U12-13,TR4-5,T8-11,IC15-18,IC20-52,J1,J3-5,J7,J10-17,J19-23,TP6-25,R45-50,R66,R68-93,R99-101,R103-104,R107-108,R115-215,D7,D16,D19-20,D25,D28-43,D48-56,C23-40,C58-67,C83,C103-153,Y5-6,#PWR15-17,#PWR29-40,#PWR94,#PWR100,#PWR120,#PWR125-126,#PWR134,#PWR136-139,#PWR151-199",
     "variants": []
   },
   "sheets": [
     [
       "d90afa92-2c2e-4829-9dae-7324c7a34110",
-      "Charger_Power_BOARD_V_0_6_0"
+      "Charger_Power_BOARD_V_0_7_0"
     ],
     [
       "735c17c2-6b08-4076-be35-31c74a6211bf",

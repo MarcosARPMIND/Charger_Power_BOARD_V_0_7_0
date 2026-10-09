@@ -2048,12 +2048,6 @@
 		(uuid "02415ff4-000d-4d3a-b085-d7242c1afb2c")
 	)
 	(junction
-		(at 67.31 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0459b8de-fdfc-4a2b-b253-d7330c28bf45")
-	)
-	(junction
 		(at 96.52 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2132,18 +2126,6 @@
 		(uuid "cdd13671-77c2-4c06-89fc-67aae37149a2")
 	)
 	(junction
-		(at 62.23 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d65d955e-8c27-443e-9fe7-4d53165beaa8")
-	)
-	(junction
-		(at 86.36 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d83abce0-dcba-423b-9f41-4afb66a2479b")
-	)
-	(junction
 		(at 139.7 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2160,12 +2142,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8a65c1d-5d49-4381-8df1-60aefe18c5ca")
-	)
-	(junction
-		(at 88.9 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa5aa342-547c-4a0b-959d-d35bb50dab2b")
 	)
 	(no_connect
 		(at 163.83 134.62)
@@ -2226,6 +2202,16 @@
 			(type default)
 		)
 		(uuid "03cc3238-b00d-4454-bcd3-7fa653e6c09f")
+	)
+	(wire
+		(pts
+			(xy 67.31 161.29) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cd049c-253c-49f3-925d-a745c1aa3e99")
 	)
 	(wire
 		(pts
@@ -2319,13 +2305,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 189.23) (xy 62.23 189.23)
+			(xy 83.82 161.29) (xy 96.52 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cac6329-a15d-40f3-a0ff-462d9543fad8")
+		(uuid "2ce6615e-53f1-4355-88f8-81762eb2e86b")
 	)
 	(wire
 		(pts
@@ -2366,16 +2352,6 @@
 			(type default)
 		)
 		(uuid "35c55a61-39bc-4e15-8e92-32cf50b0b8cf")
-	)
-	(wire
-		(pts
-			(xy 86.36 161.29) (xy 96.52 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d15a62-f9bf-41b7-9673-17c7b065053d")
 	)
 	(wire
 		(pts
@@ -2426,16 +2402,6 @@
 			(type default)
 		)
 		(uuid "3de22461-3ea2-4a28-b691-5f11c7d94f84")
-	)
-	(wire
-		(pts
-			(xy 88.9 171.45) (xy 96.52 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40af22d6-29f8-4645-ba96-50223507cf46")
 	)
 	(wire
 		(pts
@@ -2529,16 +2495,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 189.23) (xy 62.23 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c191eca-716e-47e5-850a-8fe2ba338258")
-	)
-	(wire
-		(pts
 			(xy 67.31 135.89) (xy 67.31 139.7)
 		)
 		(stroke
@@ -2546,16 +2502,6 @@
 			(type default)
 		)
 		(uuid "5f6be3e8-d877-4201-8343-b64c6021f7f9")
-	)
-	(wire
-		(pts
-			(xy 83.82 171.45) (xy 88.9 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6102043c-706e-4f2f-85f4-6f23834ebdcd")
 	)
 	(wire
 		(pts
@@ -2639,16 +2585,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 161.29) (xy 67.31 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f7845be-4f67-4b0b-b3a5-9f35df2e3cd3")
-	)
-	(wire
-		(pts
 			(xy 163.83 175.26) (xy 176.53 175.26)
 		)
 		(stroke
@@ -2686,16 +2622,6 @@
 			(type default)
 		)
 		(uuid "75a67169-7ccf-43f7-ad82-1223494ed44a")
-	)
-	(wire
-		(pts
-			(xy 86.36 179.07) (xy 86.36 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b2dcd38-6405-401d-b389-1c29ddfe0905")
 	)
 	(wire
 		(pts
@@ -2799,26 +2725,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 189.23) (xy 88.9 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a25e94bc-c86a-4929-8f47-be6fd41b29d3")
-	)
-	(wire
-		(pts
-			(xy 83.82 179.07) (xy 86.36 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2870a14-7045-4455-8357-b938a60abd69")
-	)
-	(wire
-		(pts
 			(xy 163.83 172.72) (xy 176.53 172.72)
 		)
 		(stroke
@@ -2846,6 +2752,16 @@
 			(type default)
 		)
 		(uuid "aa0b855d-b2c3-4be3-ace9-55065d58004d")
+	)
+	(wire
+		(pts
+			(xy 83.82 171.45) (xy 96.52 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32263fb-db64-4b86-98db-d224b23a089a")
 	)
 	(wire
 		(pts
@@ -3019,16 +2935,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 189.23) (xy 88.9 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb703bd3-e2eb-495b-95f7-05ee18e72fe0")
-	)
-	(wire
-		(pts
 			(xy 87.63 207.01) (xy 91.44 207.01)
 		)
 		(stroke
@@ -3079,16 +2985,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 171.45) (xy 68.58 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9428aed-ddb2-46cd-8717-233cee63e3b2")
-	)
-	(wire
-		(pts
 			(xy 176.53 175.26) (xy 176.53 177.8)
 		)
 		(stroke
@@ -3119,17 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 161.29) (xy 86.36 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4449c83-03b9-40a0-b5a7-7715b77547af")
-	)
-	(wire
-		(pts
-			(xy 36.83 171.45) (xy 62.23 171.45)
+			(xy 36.83 171.45) (xy 68.58 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3199,16 +3085,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 161.29) (xy 68.58 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba8c378-d944-49cb-8ba4-acc15870351b")
-	)
-	(wire
-		(pts
 			(xy 125.73 114.3) (xy 125.73 124.46)
 		)
 		(stroke
@@ -3226,16 +3102,6 @@
 			(type default)
 		)
 		(uuid "edea33b4-17cd-4f0d-8b65-a73d5184ee87")
-	)
-	(wire
-		(pts
-			(xy 68.58 179.07) (xy 67.31 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f444ff-d02d-4c57-82ff-1d8e2544dccc")
 	)
 	(wire
 		(pts
@@ -3506,7 +3372,7 @@
 			(uuid "675ce193-5f18-4e1e-a56b-c781d56a9f66")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0111")
 					(unit 1)
@@ -3589,7 +3455,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 96.52 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3600,7 +3466,7 @@
 				)
 			)
 		)
-		(property "Ref" "CRCW0603100RJNEA"
+		(property "Distributor_PN" ""
 			(at 96.52 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3611,51 +3477,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Vishay/CRCW0603100RJNEA?qs=KP%252BPudsHLdyEsfUmV0a9fw%3D%3D"
-			(at 96.52 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 96.52 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 96.52 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 96.52 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CRCW0603100RJNEA"
 			(at 96.52 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3673,7 +3495,7 @@
 			(uuid "ab2f93b8-1a3d-4665-8a1a-58bf984b8191")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "R102")
 					(unit 1)
@@ -3684,6 +3506,127 @@
 				)
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/b4988584-90d1-419e-922b-a4e4f5742cb2"
 					(reference "R159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18056598-4a9a-4e09-9891-3a4bb83c23bf")
+		(property "Reference" "R99"
+			(at 45.72 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24K"
+			(at 45.72 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 45.72 159.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 45.72 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor_PN" ""
+			(at 45.72 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESR18EZPF2402"
+			(at 45.72 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0504b7dc-09aa-45cd-9f9c-38d577ed2d88")
+		)
+		(pin "2"
+			(uuid "bf36dbf3-be22-4192-a113-aabf4984d668")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
+					(reference "R101")
+					(unit 1)
+				)
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/735c17c2-6b08-4076-be35-31c74a6211bf"
+					(reference "R99")
+					(unit 1)
+				)
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/b4988584-90d1-419e-922b-a4e4f5742cb2"
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -3759,7 +3702,7 @@
 			(uuid "bed008f3-0167-4be5-a864-66af325ed91e")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0101")
 					(unit 1)
@@ -3844,7 +3787,7 @@
 			(uuid "5ecd3f27-0c12-4b8d-9a9a-cc0a393318f4")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR096")
 					(unit 1)
@@ -3930,7 +3873,7 @@
 			(uuid "4d1f7b1a-65ad-4229-8359-7c4ba017a68c")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR093")
 					(unit 1)
@@ -4012,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 179.07 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -4023,7 +3966,7 @@
 				)
 			)
 		)
-		(property "Ref" "CML0603C0G300JT50V"
+		(property "Distributor_PN" ""
 			(at 179.07 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -4034,51 +3977,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/SEI-Stackpole/CML0603C0G300JT50V?qs=IKkN%2F947nfCK%252BFMbDM8UZQ%3D%3D"
-			(at 179.07 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 179.07 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 179.07 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 179.07 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CML0603C0G300JT50V"
 			(at 179.07 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -4096,7 +3995,7 @@
 			(uuid "d49c0a58-9dda-4904-ab15-5f33609f11fe")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C75")
 					(unit 1)
@@ -4179,7 +4078,7 @@
 				)
 			)
 		)
-		(property "Destribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 67.31 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4190,7 +4089,7 @@
 				)
 			)
 		)
-		(property "Ref" "CRCW060336R0FKEA"
+		(property "Distributor_PN" ""
 			(at 67.31 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4201,51 +4100,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Vishay/CRCW060336R0FKEA?qs=Z8%2FtAwCyezENJ%252BfwSQj29A%3D%3D"
-			(at 67.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 67.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 67.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 67.31 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CRCW060336R0FKEA"
 			(at 67.31 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4263,7 +4118,7 @@
 			(uuid "b5e62dae-f443-4ba2-89a7-3347389f8a39")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "R96")
 					(unit 1)
@@ -4349,7 +4204,7 @@
 			(uuid "02c96427-ae21-42f0-b274-dc68d88c63b4")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0105")
 					(unit 1)
@@ -4435,7 +4290,7 @@
 			(uuid "de88dcb2-2424-468c-b3c6-d899b530efcb")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0103")
 					(unit 1)
@@ -4517,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 110.49 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -4528,7 +4383,7 @@
 				)
 			)
 		)
-		(property "Ref" "0603B333J500CT"
+		(property "Distributor_PN" ""
 			(at 110.49 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -4539,51 +4394,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Walsin/0603B333J500CT?qs=fIkAfuXiAQL6oSKmKmmZ2g%3D%3D"
-			(at 110.49 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 110.49 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 110.49 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 110.49 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "0603B333J500CT"
 			(at 110.49 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -4601,7 +4412,7 @@
 			(uuid "ce48ba5b-68a6-418f-8933-3c1d2503afc0")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C74")
 					(unit 1)
@@ -4686,7 +4497,7 @@
 			(uuid "0547c52f-d6f1-4155-988b-f33de343245b")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0109")
 					(unit 1)
@@ -4772,7 +4583,7 @@
 			(uuid "3dfe12d5-7826-45f8-aa7f-66bd4ba949b2")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR097")
 					(unit 1)
@@ -4857,7 +4668,7 @@
 			(uuid "19c539d7-165d-4f1f-aa1b-95954d60a628")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR098")
 					(unit 1)
@@ -4943,7 +4754,7 @@
 			(uuid "103a1ec8-1d05-424f-8007-536f3b9289ef")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0102")
 					(unit 1)
@@ -5025,7 +4836,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 87.63 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -5036,7 +4847,7 @@
 				)
 			)
 		)
-		(property "Ref" "GRM21BZ7YA475ME15L"
+		(property "Distributor_PN" ""
 			(at 87.63 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -5047,51 +4858,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Murata-Electronics/GRM21BZ7YA475ME15L?qs=Ey7%2FXF42M3eV%2FmbCjdmrtQ%3D%3D"
-			(at 87.63 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 87.63 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 87.63 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 87.63 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "GRM21BZ7YA475ME15L"
 			(at 87.63 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -5109,7 +4876,7 @@
 			(uuid "2c3baf90-7eca-4517-8360-ae61cf590f23")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C77")
 					(unit 1)
@@ -5191,7 +4958,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 99.06 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5202,7 +4969,7 @@
 				)
 			)
 		)
-		(property "Ref" "0603B333J500CT"
+		(property "Distributor_PN" ""
 			(at 99.06 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5213,51 +4980,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Walsin/0603B333J500CT?qs=fIkAfuXiAQL6oSKmKmmZ2g%3D%3D"
-			(at 99.06 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 99.06 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 99.06 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 99.06 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "0603B333J500CT"
 			(at 99.06 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5275,7 +4998,7 @@
 			(uuid "08836c82-7eb4-4b86-b2cd-18abbb7d82e5")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C73")
 					(unit 1)
@@ -5361,7 +5084,7 @@
 			(uuid "ce530c66-98ea-4c0b-a003-c8cdb35ee12f")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR092")
 					(unit 1)
@@ -5446,7 +5169,7 @@
 			(uuid "02d3eadc-c6a6-4373-83da-d2466c12b11b")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0110")
 					(unit 1)
@@ -5527,7 +5250,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 119.38 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -5538,7 +5261,7 @@
 				)
 			)
 		)
-		(property "Ref" "CRCW0603100RJNEA"
+		(property "Distributor_PN" ""
 			(at 119.38 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -5549,51 +5272,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Vishay/CRCW0603100RJNEA?qs=KP%252BPudsHLdyEsfUmV0a9fw%3D%3D"
-			(at 119.38 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 119.38 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 119.38 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 119.38 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CRCW0603100RJNEA"
 			(at 119.38 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -5611,7 +5290,7 @@
 			(uuid "a14d296f-8ba2-4a17-809c-4fd791c08b57")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "R95")
 					(unit 1)
@@ -5693,6 +5372,39 @@
 				)
 			)
 		)
+		(property "Distributor" ""
+			(at 49.53 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor_PN" ""
+			(at 49.53 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 49.53 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "2ab57c86-2145-4b58-ac46-87f9c6b6c8ed")
 		)
@@ -5706,7 +5418,7 @@
 			(uuid "fcf9b549-2258-4362-82d2-04b90fd94fa3")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "U10")
 					(unit 1)
@@ -5792,7 +5504,7 @@
 			(uuid "fec86385-a294-40fd-804b-3aecc47dbe7f")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR095")
 					(unit 1)
@@ -5877,7 +5589,7 @@
 			(uuid "8a3af7dc-bda3-468e-bf31-03f52c73a61b")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0108")
 					(unit 1)
@@ -5959,7 +5671,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 190.5 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -5970,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Ref" "CML0603C0G300JT50V"
+		(property "Distributor_PN" ""
 			(at 190.5 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -5981,51 +5693,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/SEI-Stackpole/CML0603C0G300JT50V?qs=IKkN%2F947nfCK%252BFMbDM8UZQ%3D%3D"
-			(at 190.5 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 190.5 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 190.5 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 190.5 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CML0603C0G300JT50V"
 			(at 190.5 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6043,7 +5711,7 @@
 			(uuid "b3f89a0d-4cc5-4a06-aad2-21dfcd99b2e7")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C76")
 					(unit 1)
@@ -6054,138 +5722,6 @@
 				)
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/b4988584-90d1-419e-922b-a4e4f5742cb2"
 					(reference "C127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 161.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f1d6ec3-e54f-4be1-85a3-deeac321f710")
-		(property "Reference" "R104"
-			(at 45.72 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24K"
-			(at 45.72 157.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 45.72 159.512 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 45.72 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 45.72 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 45.72 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 45.72 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9b299b9-7ae0-4833-af65-548f00ed24a4")
-		)
-		(pin "2"
-			(uuid "1e59f063-4aea-4300-bf8f-a5066756efee")
-		)
-		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
-				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
-					(reference "R99")
-					(unit 1)
-				)
-				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/735c17c2-6b08-4076-be35-31c74a6211bf"
-					(reference "R104")
-					(unit 1)
-				)
-				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/b4988584-90d1-419e-922b-a4e4f5742cb2"
-					(reference "R155")
 					(unit 1)
 				)
 			)
@@ -6257,7 +5793,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 198.12 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -6268,7 +5804,7 @@
 				)
 			)
 		)
-		(property "Ref" "GC0350016"
+		(property "Distributor_PN" ""
 			(at 198.12 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -6279,51 +5815,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Diodes-Incorporated/GC0350016?qs=byeeYqUIh0NJAGvJIxm91Q%3D%3D"
-			(at 198.12 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 198.12 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 198.12 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 198.12 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "GC0350016"
 			(at 198.12 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -6341,7 +5833,7 @@
 			(uuid "0dbfd847-a707-4a0d-9570-16384352f637")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "Y4")
 					(unit 1)
@@ -6425,7 +5917,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 151.13 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6436,7 +5928,7 @@
 				)
 			)
 		)
-		(property "Ref" "ADE7953ACPZ"
+		(property "Distributor_PN" ""
 			(at 151.13 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6447,51 +5939,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Analog-Devices/ADE7953ACPZ?qs=BpaRKvA4VqFYXtTTWdjVBA%3D%3D"
-			(at 151.13 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 151.13 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 151.13 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 151.13 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "ADE7953ACPZ"
 			(at 151.13 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6590,7 +6038,7 @@
 			(uuid "79c98057-1936-44d0-8e31-ca3628d1de21")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "U6")
 					(unit 1)
@@ -6673,7 +6121,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 95.25 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -6684,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Ref" "CL10B104MB8NNNC"
+		(property "Distributor_PN" ""
 			(at 95.25 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -6695,51 +6143,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104MB8NNNC?qs=xZ%2FP%252Ba9zWqZKjdh4mIsO7Q%3D%3D"
-			(at 95.25 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 95.25 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 95.25 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 95.25 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CL10B104MB8NNNC"
 			(at 95.25 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -6757,7 +6161,7 @@
 			(uuid "d946e0bd-51bc-4a28-a56d-b08edbb417c2")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C78")
 					(unit 1)
@@ -6840,7 +6244,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 184.15 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6851,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Ref" "RCS060310K0FKEA"
+		(property "Distributor_PN" ""
 			(at 184.15 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6862,51 +6266,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Vishay-Draloric/RCS060310K0FKEA?qs=NKmfXavxMawhVKMCO7ohFw%3D%3D"
-			(at 184.15 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 184.15 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 184.15 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 184.15 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "RCS060310K0FKEA"
 			(at 184.15 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6924,7 +6284,7 @@
 			(uuid "2657fbc4-1747-41fd-9d8a-2d2936a07f8d")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "R97")
 					(unit 1)
@@ -7010,7 +6370,7 @@
 			(uuid "5d912b6e-0bfa-4d99-885c-1918064714fd")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0106")
 					(unit 1)
@@ -7095,7 +6455,7 @@
 			(uuid "f1428af5-d7d9-4485-be56-29f1e0754112")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0112")
 					(unit 1)
@@ -7177,7 +6537,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7188,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Ref" "GMK316AB7106KL-TR"
+		(property "Distributor_PN" ""
 			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7199,51 +6559,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/TAIYO-YUDEN/GMK316AB7106KL-TR?qs=I6KAKw0tg2zjwfBQFDR86Q%3D%3D"
-			(at 134.62 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 134.62 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 134.62 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 134.62 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "GMK316AB7106KL-TR"
 			(at 134.62 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7261,7 +6577,7 @@
 			(uuid "07a0a92e-0c37-4c47-90ff-7973a197c056")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C70")
 					(unit 1)
@@ -7347,7 +6663,7 @@
 			(uuid "d51d7fbe-8ed5-42fa-b64d-3271142e4271")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0104")
 					(unit 1)
@@ -7358,6 +6674,127 @@
 				)
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/b4988584-90d1-419e-922b-a4e4f5742cb2"
 					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7a1bdee-3d00-4575-99cc-4758b2829435")
+		(property "Reference" "R155"
+			(at 63.5 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24K"
+			(at 63.5 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 63.5 159.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 63.5 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor_PN" ""
+			(at 63.5 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESR18EZPF2402"
+			(at 63.5 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7eff56d-2c90-494d-bfe5-39e868a39b64")
+		)
+		(pin "2"
+			(uuid "10252d8d-6403-48b5-b4be-bb10afb794ef")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
+					(reference "R157")
+					(unit 1)
+				)
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/735c17c2-6b08-4076-be35-31c74a6211bf"
+					(reference "R155")
+					(unit 1)
+				)
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/b4988584-90d1-419e-922b-a4e4f5742cb2"
+					(reference "R156")
 					(unit 1)
 				)
 			)
@@ -7395,7 +6832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 36.83 159.512 90)
 			(hide yes)
 			(show_name no)
@@ -7428,7 +6865,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 36.83 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -7439,7 +6876,7 @@
 				)
 			)
 		)
-		(property "Ref" "ERJ-PA3F2402V"
+		(property "Distributor_PN" ""
 			(at 36.83 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -7450,51 +6887,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Panasonic/ERJ-PA3F2402V?qs=BzJM0faLVqVpj6d%2FjxPXsw%3D%3D"
-			(at 36.83 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 36.83 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 36.83 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 36.83 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "ESR18EZPF2402"
 			(at 36.83 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -7512,7 +6905,7 @@
 			(uuid "8e642cd2-89ef-4802-aafc-6a3a5f0e404c")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "R98")
 					(unit 1)
@@ -7594,7 +6987,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 113.03 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -7605,7 +6998,7 @@
 				)
 			)
 		)
-		(property "Ref" "GRM21BZ7YA475ME15L"
+		(property "Distributor_PN" ""
 			(at 113.03 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -7616,51 +7009,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Murata-Electronics/GRM21BZ7YA475ME15L?qs=Ey7%2FXF42M3eV%2FmbCjdmrtQ%3D%3D"
-			(at 113.03 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 113.03 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 113.03 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 113.03 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "GRM21BZ7YA475ME15L"
 			(at 113.03 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -7678,7 +7027,7 @@
 			(uuid "05e4e746-8848-40f9-a3c5-055d44b5dcb8")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C79")
 					(unit 1)
@@ -7761,7 +7110,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 125.73 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7772,7 +7121,7 @@
 				)
 			)
 		)
-		(property "Ref" "RCS060310K0FKEA"
+		(property "Distributor_PN" ""
 			(at 125.73 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7783,51 +7132,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Vishay-Draloric/RCS060310K0FKEA?qs=NKmfXavxMawhVKMCO7ohFw%3D%3D"
-			(at 125.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 125.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 125.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 125.73 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "RCS060310K0FKEA"
 			(at 125.73 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7845,7 +7150,7 @@
 			(uuid "007e3cca-d70a-413b-b7f5-d18af565254d")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "R94")
 					(unit 1)
@@ -7927,7 +7232,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 214.63 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7938,7 +7243,7 @@
 				)
 			)
 		)
-		(property "Ref" "GRM21BZ7YA475ME15L"
+		(property "Distributor_PN" ""
 			(at 214.63 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7949,51 +7254,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Murata-Electronics/GRM21BZ7YA475ME15L?qs=Ey7%2FXF42M3eV%2FmbCjdmrtQ%3D%3D"
-			(at 214.63 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 214.63 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 214.63 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 214.63 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "GRM21BZ7YA475ME15L"
 			(at 214.63 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8011,7 +7272,7 @@
 			(uuid "cd899aeb-ab84-46ea-b8b0-002b1035cc24")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C71")
 					(unit 1)
@@ -8093,7 +7354,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 137.16 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -8104,7 +7365,7 @@
 				)
 			)
 		)
-		(property "Ref" "GRM21BZ7YA475ME15L"
+		(property "Distributor_PN" ""
 			(at 137.16 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -8115,51 +7376,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Murata-Electronics/GRM21BZ7YA475ME15L?qs=Ey7%2FXF42M3eV%2FmbCjdmrtQ%3D%3D"
-			(at 137.16 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 137.16 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 137.16 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 137.16 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "GRM21BZ7YA475ME15L"
 			(at 137.16 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -8177,7 +7394,7 @@
 			(uuid "2e35887b-886b-493a-82ea-61eb5870ddbc")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C81")
 					(unit 1)
@@ -8260,7 +7477,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 220.98 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8271,7 +7488,7 @@
 				)
 			)
 		)
-		(property "Ref" "CL10B104MB8NNNC"
+		(property "Distributor_PN" ""
 			(at 220.98 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8282,51 +7499,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104MB8NNNC?qs=xZ%2FP%252Ba9zWqZKjdh4mIsO7Q%3D%3D"
-			(at 220.98 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 220.98 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 220.98 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 220.98 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CL10B104MB8NNNC"
 			(at 220.98 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8344,7 +7517,7 @@
 			(uuid "69958ccf-7ba0-4da0-bdbd-fa643aa8a028")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C72")
 					(unit 1)
@@ -8427,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 119.38 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -8438,7 +7611,7 @@
 				)
 			)
 		)
-		(property "Ref" "CL10B104MB8NNNC"
+		(property "Distributor_PN" ""
 			(at 119.38 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -8449,51 +7622,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104MB8NNNC?qs=xZ%2FP%252Ba9zWqZKjdh4mIsO7Q%3D%3D"
-			(at 119.38 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 119.38 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 119.38 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 119.38 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CL10B104MB8NNNC"
 			(at 119.38 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -8511,7 +7640,7 @@
 			(uuid "640dffb3-d7b0-4375-a264-00c8afaaf44d")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C80")
 					(unit 1)
@@ -8528,140 +7657,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 161.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4928e3e-2114-415a-b054-360d8a655dae")
-		(property "Reference" "R108"
-			(at 63.5 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24K"
-			(at 63.5 157.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 63.5 159.512 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 63.5 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 63.5 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 63.5 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 63.5 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b173fbf1-9170-4822-afa9-5e73598730fa")
-		)
-		(pin "2"
-			(uuid "55c23f23-e18c-4527-8e98-f7289a57b3ff")
-		)
-		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
-				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
-					(reference "R101")
-					(unit 1)
-				)
-				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/735c17c2-6b08-4076-be35-31c74a6211bf"
-					(reference "R108")
-					(unit 1)
-				)
-				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/b4988584-90d1-419e-922b-a4e4f5742cb2"
-					(reference "R157")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ZMPT101B:ZMPT101B")
-		(at 76.2 184.15 0)
+		(at 76.2 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8672,7 +7669,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8554155-4d4a-4723-9e44-594cfe7254ac")
 		(property "Reference" "T9"
-			(at 78.0045 173.99 0)
+			(at 78.0045 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8682,7 +7679,7 @@
 			)
 		)
 		(property "Value" "ZMPT101B"
-			(at 78.0045 176.53 0)
+			(at 78.0045 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8692,7 +7689,7 @@
 			)
 		)
 		(property "Footprint" "FOOTPRINTS:XFMR_ZMPT101B"
-			(at 76.2 184.15 0)
+			(at 76.2 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8704,7 +7701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 184.15 0)
+			(at 76.2 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8715,7 +7712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 184.15 0)
+			(at 76.2 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8723,34 +7720,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MF" "Qingxian Zeming Langxi Electronic"
-			(at 76.2 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "18.8mm"
-			(at 76.2 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(property "Package" "None"
-			(at 76.2 184.15 0)
+			(at 76.2 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8761,8 +7734,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Price" "None"
-			(at 76.2 184.15 0)
+		(property "Distributor" ""
+			(at 76.2 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8770,11 +7743,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ZMPT101B/Qingxian+Zeming+Langxi+Electronic/view-part/?ref=eda"
-			(at 76.2 184.15 0)
+		(property "Distributor_PN" ""
+			(at 76.2 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8782,11 +7754,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 76.2 184.15 0)
+		(property "MPN" ""
+			(at 76.2 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8794,79 +7765,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 76.2 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ZMPT101B/Qingxian+Zeming+Langxi+Electronic/view-part/?ref=snap"
-			(at 76.2 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "ZMPT101B"
-			(at 76.2 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Current-type Voltage Transformer"
-			(at 76.2 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 76.2 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Qingxian Zeming Langxi Electronic"
-			(at 76.2 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -8882,7 +7780,7 @@
 			(uuid "f76a5e7f-1f6c-4e31-90ae-593928c5fe2f")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "T7")
 					(unit 1)
@@ -8909,8 +7807,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5244416-dcfd-4c9e-874b-2477deb25f45")
-		(property "Reference" "R107"
+		(uuid "f06c2849-68bf-430b-a978-bb0f3466bfae")
+		(property "Reference" "R104"
 			(at 54.61 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8930,7 +7828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 54.61 159.512 90)
 			(hide yes)
 			(show_name no)
@@ -8963,7 +7861,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Distributor" ""
 			(at 54.61 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -8974,7 +7872,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Distributor_PN" ""
 			(at 54.61 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -8985,18 +7883,7 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 54.61 161.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "ESR18EZPF2402"
 			(at 54.61 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -9008,23 +7895,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d8cc65a-3ca9-4b70-8a5f-6eae8c8706f4")
+			(uuid "c8df66b2-ae59-4395-abc4-8ddb399f5c09")
 		)
 		(pin "2"
-			(uuid "5a6116b2-9563-4a57-8d47-771eb85a70c4")
+			(uuid "b55a395a-7cad-474c-bfff-4d5b9b7eda6d")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
-					(reference "R100")
+					(reference "R108")
 					(unit 1)
 				)
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/735c17c2-6b08-4076-be35-31c74a6211bf"
-					(reference "R107")
+					(reference "R104")
 					(unit 1)
 				)
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/b4988584-90d1-419e-922b-a4e4f5742cb2"
-					(reference "R156")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -9099,7 +7986,7 @@
 			(uuid "3cea1797-c630-40f8-ac35-cdf4d0ef9240")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR099")
 					(unit 1)
@@ -9182,7 +8069,7 @@
 				)
 			)
 		)
-		(property "Distribuidor" "Mouser"
+		(property "Distributor" ""
 			(at 143.51 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -9193,7 +8080,7 @@
 				)
 			)
 		)
-		(property "Ref" "CL10B104MB8NNNC"
+		(property "Distributor_PN" ""
 			(at 143.51 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -9204,51 +8091,7 @@
 				)
 			)
 		)
-		(property "Link" "https://pt.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104MB8NNNC?qs=xZ%2FP%252Ba9zWqZKjdh4mIsO7Q%3D%3D"
-			(at 143.51 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 143.51 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 143.51 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 143.51 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
+		(property "MPN" "CL10B104MB8NNNC"
 			(at 143.51 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -9266,7 +8109,7 @@
 			(uuid "c4f46796-7e12-4a76-a42e-5ae495a5cd6a")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "C82")
 					(unit 1)
@@ -9351,7 +8194,7 @@
 			(uuid "9ceab464-d530-435f-8ced-83b9b8de3c6e")
 		)
 		(instances
-			(project "Charger_Power_BOARD_V_0_6_0"
+			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110/4dbb3bdd-953b-4930-892b-66eb7a665985"
 					(reference "#PWR0107")
 					(unit 1)
