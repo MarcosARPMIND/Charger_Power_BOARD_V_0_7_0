@@ -2550,10 +2550,6 @@
 		(uuid "f28d611f-14d1-49a5-b881-fc5600319492")
 	)
 	(no_connect
-		(at 151.13 81.28)
-		(uuid "05e87d25-05e6-42a0-91d1-d1f3098854c6")
-	)
-	(no_connect
 		(at 138.43 116.84)
 		(uuid "4de76da7-297c-42ef-98a0-999b17ca2e8f")
 	)
@@ -2652,6 +2648,16 @@
 			(type default)
 		)
 		(uuid "149b00a0-4ff0-4f0c-8a9a-1f0aa7e6f8c0")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156c1278-390f-4b80-9b2d-f92af8aa7b85")
 	)
 	(wire
 		(pts
@@ -3465,6 +3471,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 73.66) (xy 151.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e800c555-208f-47bb-88e8-d43c899ae447")
+	)
+	(wire
+		(pts
 			(xy 195.58 149.86) (xy 173.99 149.86)
 		)
 		(stroke
@@ -3889,6 +3905,17 @@
 			(justify left)
 		)
 		(uuid "6909ffc7-1d8c-4493-940d-353fe0e49221")
+	)
+	(hierarchical_label "RCD_TEST"
+		(shape input)
+		(at 139.7 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6945ed4e-76c9-429a-8a74-40b283f77734")
 	)
 	(hierarchical_label "GPIO_BUTTON"
 		(shape input)
