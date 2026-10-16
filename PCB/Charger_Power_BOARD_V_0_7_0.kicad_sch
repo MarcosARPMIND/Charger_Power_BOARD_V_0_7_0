@@ -4622,6 +4622,12 @@
 		(uuid "16076983-086d-4114-8a38-0d09c0a867e7")
 	)
 	(junction
+		(at 332.74 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16b54436-6c08-49c7-8d8a-c89e1f199230")
+	)
+	(junction
 		(at 52.07 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4710,6 +4716,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b25fb65-0fd8-4d61-a18a-b5aaf0f7449a")
+	)
+	(junction
+		(at 261.62 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87a15425-2600-418a-89cf-b5f4e9c22de3")
 	)
 	(junction
 		(at 21.59 106.68)
@@ -4812,6 +4824,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfa663e2-2929-470a-a80f-dd153505c43c")
+	)
+	(junction
+		(at 256.54 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ea95e1-1e95-44b7-9da0-7c5bc005ed94")
+	)
+	(junction
+		(at 339.09 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e598a69e-7f32-476f-9e2a-167e311b53db")
 	)
 	(no_connect
 		(at 226.06 99.06)
@@ -5079,6 +5103,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 22.86) (xy 349.25 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f37e821-9460-413d-bba2-b3de4467acc4")
+	)
+	(wire
+		(pts
 			(xy 69.85 270.51) (xy 69.85 271.78)
 		)
 		(stroke
@@ -5199,6 +5233,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 25.4) (xy 256.54 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16cd277c-ccac-4a99-ac97-71e56ccd415a")
+	)
+	(wire
+		(pts
+			(xy 254 38.1) (xy 254 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cc26fa-03bd-4640-b822-01da17627665")
+	)
+	(wire
+		(pts
 			(xy 71.12 143.51) (xy 90.17 143.51)
 		)
 		(stroke
@@ -5246,6 +5300,16 @@
 			(type default)
 		)
 		(uuid "1b6fe15f-b1b7-47dc-b266-4c306634cf8f")
+	)
+	(wire
+		(pts
+			(xy 261.62 25.4) (xy 273.05 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc401ae-8bb3-4af6-9ea2-f729d931a8c2")
 	)
 	(wire
 		(pts
@@ -5326,6 +5390,16 @@
 			(type default)
 		)
 		(uuid "21343bb8-e989-4dc3-99cc-0fa7fea233a3")
+	)
+	(wire
+		(pts
+			(xy 339.09 22.86) (xy 339.09 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2313c7d4-0db7-4b7a-9de9-fd1243902232")
 	)
 	(wire
 		(pts
@@ -5529,6 +5603,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 22.86) (xy 332.74 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d66c917-8913-48f6-bc9a-4295404bfe13")
+	)
+	(wire
+		(pts
 			(xy 308.61 187.96) (xy 318.77 187.96)
 		)
 		(stroke
@@ -5559,7 +5643,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 34.29) (xy 349.25 34.29)
+			(xy 332.74 22.86) (xy 339.09 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5599,7 +5683,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 31.75) (xy 256.54 34.29)
+			(xy 256.54 22.86) (xy 256.54 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5736,6 +5820,16 @@
 			(type default)
 		)
 		(uuid "49ee1545-0ceb-4913-8921-8d4601043b52")
+	)
+	(wire
+		(pts
+			(xy 254 30.48) (xy 254 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b496435-a4c0-49be-a4c3-a080209b4985")
 	)
 	(wire
 		(pts
@@ -5929,6 +6023,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 25.4) (xy 273.05 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed48bb7-7105-4eab-a42a-f39ebc1f0494")
+	)
+	(wire
+		(pts
 			(xy 359.41 124.46) (xy 359.41 127)
 		)
 		(stroke
@@ -6086,6 +6190,16 @@
 			(type default)
 		)
 		(uuid "691506ac-6230-4f5b-9c83-fe0f4be333c4")
+	)
+	(wire
+		(pts
+			(xy 339.09 35.56) (xy 339.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699edc95-8f82-4888-9931-e26ef7e4cec7")
 	)
 	(wire
 		(pts
@@ -6269,6 +6383,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 27.94) (xy 331.47 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791aa99d-1009-48e2-90fd-1c95be51a69e")
+	)
+	(wire
+		(pts
 			(xy 21.59 76.2) (xy 41.91 76.2)
 		)
 		(stroke
@@ -6426,6 +6550,16 @@
 			(type default)
 		)
 		(uuid "829b0e88-afdb-49bd-b4bf-b87ab022df18")
+	)
+	(wire
+		(pts
+			(xy 261.62 38.1) (xy 261.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c6440f-e46b-4ffb-a0df-c1fd1ea69fe9")
 	)
 	(wire
 		(pts
@@ -6759,6 +6893,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 35.56) (xy 331.47 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e299966-48a3-4b29-b159-2ac8cc6c1d8f")
+	)
+	(wire
+		(pts
 			(xy 52.07 30.48) (xy 52.07 36.83)
 		)
 		(stroke
@@ -6776,6 +6920,16 @@
 			(type default)
 		)
 		(uuid "9e713e64-574b-492d-b326-64b1bbc3cfaa")
+	)
+	(wire
+		(pts
+			(xy 349.25 22.86) (xy 349.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebf1492-3d8f-4139-8012-c3b245a5288d")
 	)
 	(wire
 		(pts
@@ -6869,7 +7023,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 31.75) (xy 332.74 34.29)
+			(xy 332.74 20.32) (xy 332.74 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7519,7 +7673,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 34.29) (xy 273.05 34.29)
+			(xy 256.54 25.4) (xy 261.62 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7746,6 +7900,16 @@
 			(type default)
 		)
 		(uuid "f0dbdec8-a0db-4cb5-bfea-4d4a59a13a08")
+	)
+	(wire
+		(pts
+			(xy 261.62 25.4) (xy 261.62 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16d1178-afaf-4b40-b821-8afcbd18c818")
 	)
 	(wire
 		(pts
@@ -9832,7 +9996,7 @@
 		(dnp no)
 		(uuid "0f303db0-d790-4c9e-bf94-da32eee677a2")
 		(property "Reference" "D22"
-			(at 265.176 36.83 90)
+			(at 274.828 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9843,7 +10007,7 @@
 			)
 		)
 		(property "Value" "SS12"
-			(at 265.176 39.37 90)
+			(at 274.828 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10797,7 +10961,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "470R"
 			(at 336.55 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10862,7 +11026,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0603100RJNEA"
+		(property "MPN" ""
 			(at 336.55 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -10900,7 +11064,7 @@
 		(dnp no)
 		(uuid "3a06ff9f-4bab-4789-b67b-61017e989855")
 		(property "Reference" "D18"
-			(at 341.376 36.83 90)
+			(at 342.9 38.862 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10911,7 +11075,7 @@
 			)
 		)
 		(property "Value" "SS12"
-			(at 341.376 39.37 90)
+			(at 342.9 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11417,7 +11581,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 256.54 31.75 0)
+		(at 256.54 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11428,7 +11592,7 @@
 		(fields_autoplaced yes)
 		(uuid "4399b9a0-59c0-4c73-a29b-f87669631166")
 		(property "Reference" "#PWR0123"
-			(at 256.54 35.56 0)
+			(at 256.54 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11439,7 +11603,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 256.54 26.67 0)
+			(at 256.54 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11449,7 +11613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 31.75 0)
+			(at 256.54 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11460,7 +11624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 31.75 0)
+			(at 256.54 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11471,7 +11635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 256.54 31.75 0)
+			(at 256.54 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,6 +11807,120 @@
 			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 261.62 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49f2d8dd-6ee1-46e3-a5e3-1baea366d8c6")
+		(property "Reference" "C100"
+			(at 264.922 30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 264.922 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 262.5852 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor_PN" ""
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B104MB8NNNC"
+			(at 261.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56d8806b-b4bf-4aa6-88c0-73f85c42c821")
+		)
+		(pin "2"
+			(uuid "397e11c6-a283-4974-b7c3-edb2070680f2")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -11848,6 +12126,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 331.47 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5290bb40-7d6b-4a0d-8c4d-d327f8cc7c1a")
+		(property "Reference" "#PWR019"
+			(at 331.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b1a7ed0-ee7f-4efb-b9f6-962151b67898")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 223.52 50.8 90)
 		(unit 1)
@@ -11959,7 +12315,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 339.09 43.18 0)
+		(at 339.09 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11970,7 +12326,7 @@
 		(fields_autoplaced yes)
 		(uuid "5544006e-5028-4556-a1d8-36f5590050b3")
 		(property "Reference" "C97"
-			(at 342.9 41.9099 0)
+			(at 342.9 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11981,7 +12337,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 342.9 44.4499 0)
+			(at 342.9 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11992,7 +12348,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 340.0552 46.99 0)
+			(at 340.0552 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12003,7 +12359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 43.18 0)
+			(at 339.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12014,7 +12370,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 339.09 43.18 0)
+			(at 339.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12025,7 +12381,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 339.09 43.18 0)
+			(at 339.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12036,7 +12392,7 @@
 			)
 		)
 		(property "Distributor_PN" ""
-			(at 339.09 43.18 0)
+			(at 339.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12047,7 +12403,7 @@
 			)
 		)
 		(property "MPN" "CL10B104MB8NNNC"
-			(at 339.09 43.18 0)
+			(at 339.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13334,6 +13690,84 @@
 			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
 					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7142275b-9719-45e3-b83a-3027e5918303")
+		(property "Reference" "#PWR021"
+			(at 254 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24b364db-ff8f-4484-bf8f-e085e121dc8e")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -14706,7 +15140,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "470R"
 			(at 260.35 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14771,7 +15205,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0603100RJNEA"
+		(property "MPN" ""
 			(at 260.35 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -16226,6 +16660,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 331.47 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b71d0173-21b1-4287-b4e0-539df1c4dc3d")
+		(property "Reference" "C98"
+			(at 333.248 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 332.74 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 332.4352 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail.aspx?partno=GRM21BC8YA106ME11%23"
+			(at 331.47 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 331.47 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor_PN" ""
+			(at 331.47 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 331.47 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54bc678e-2bb6-4b08-89b3-5a0110785d2f")
+		)
+		(pin "2"
+			(uuid "2ed1549a-b425-4fb2-a0ee-293b9f347888")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 27.94 171.45 0)
 		(mirror y)
@@ -16580,6 +17127,84 @@
 			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 339.09 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c37998c6-28b3-4d5c-bc1e-2334dbd3ae95")
+		(property "Reference" "#PWR018"
+			(at 339.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 339.09 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 339.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ddd09be-679a-4b23-aea3-3e3e94f1ff66")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17368,6 +17993,119 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 254 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d950b5b7-f5c8-4c07-85fe-8293c4e135ea")
+		(property "Reference" "C99"
+			(at 247.142 32.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 246.888 35.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 254.9652 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail.aspx?partno=GRM21BC8YA106ME11%23"
+			(at 254 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 254 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor_PN" ""
+			(at 254 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 254 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ba6fca7-a678-4afd-9ae2-6920b406c2ec")
+		)
+		(pin "2"
+			(uuid "9a343018-c7d7-425c-abf9-7e4b09644935")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
+					(reference "C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 363.22 184.15 180)
 		(unit 1)
 		(body_style 1)
@@ -17482,7 +18220,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 332.74 31.75 0)
+		(at 332.74 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17493,7 +18231,7 @@
 		(fields_autoplaced yes)
 		(uuid "dda82bea-8128-4361-b5bd-475881f74355")
 		(property "Reference" "#PWR03"
-			(at 332.74 35.56 0)
+			(at 332.74 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17504,7 +18242,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 332.74 26.67 0)
+			(at 332.74 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17514,7 +18252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 31.75 0)
+			(at 332.74 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17525,7 +18263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 31.75 0)
+			(at 332.74 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17536,7 +18274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 332.74 31.75 0)
+			(at 332.74 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17631,6 +18369,84 @@
 			(project "Charger_Power_BOARD_V_0_7_0"
 				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
 					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e455b73a-f613-4032-a799-7a0b4872bef8")
+		(property "Reference" "#PWR020"
+			(at 261.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fac62dde-78d2-4fa7-9521-f00bc3cd68a7")
+		)
+		(instances
+			(project "Charger_Power_BOARD_V_0_7_0"
+				(path "/d90afa92-2c2e-4829-9dae-7324c7a34110"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
