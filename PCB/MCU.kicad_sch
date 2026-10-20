@@ -2565,10 +2565,6 @@
 		(at 156.21 81.28)
 		(uuid "967136d7-b947-462e-aa85-3d288f9d7498")
 	)
-	(no_connect
-		(at 153.67 81.28)
-		(uuid "fa6ce942-0e84-41a7-85b3-9fb839a01e6e")
-	)
 	(wire
 		(pts
 			(xy 81.28 69.85) (xy 86.36 69.85)
@@ -2891,6 +2887,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 71.12) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410166e8-feb7-4053-9384-4b95be888c81")
+	)
+	(wire
+		(pts
 			(xy 186.69 109.22) (xy 201.93 109.22)
 		)
 		(stroke
@@ -3208,6 +3214,16 @@
 			(type default)
 		)
 		(uuid "9c411b29-8e47-4c2e-9980-1b76f8bdeca9")
+	)
+	(wire
+		(pts
+			(xy 139.7 71.12) (xy 153.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2420d9-0246-4ad6-98af-9c4250ef589b")
 	)
 	(wire
 		(pts
@@ -3960,6 +3976,17 @@
 			(justify left)
 		)
 		(uuid "75a41808-fccb-4af0-9a71-89db5dbbbb97")
+	)
+	(hierarchical_label "RCD_TEST_DRIVE"
+		(shape input)
+		(at 139.7 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86dc38e6-cd53-429e-89c8-d49e78fb6ff1")
 	)
 	(hierarchical_label "RCD_ERROR"
 		(shape input)
