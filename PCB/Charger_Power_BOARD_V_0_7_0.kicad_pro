@@ -219,6 +219,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -230,6 +231,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -241,6 +243,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -547,6 +550,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -596,8 +600,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -782,7 +786,7 @@
         "uuid": "d90afa92-2c2e-4829-9dae-7324c7a34110"
       }
     ],
-    "used_designators": "F1,Q1-2,Q7-11,U2,U7,U9,U12-13,TR4-5,T8-11,IC15-18,IC20-52,J1,J3-5,J7,J10-17,J19-23,TP6-25,R28,R45-50,R66,R68-93,R99-101,R103-104,R107-108,R115-215,D2-3,D7,D16,D19-20,D25,D28-43,D48-56,C23-40,C58-67,C83,C85,C92-100,C103-153,Y5-6,#PWR15-24,#PWR29-40,#PWR94,#PWR100,#PWR113-114,#PWR120,#PWR125-126,#PWR132-134,#PWR136-139,#PWR151-199",
+    "used_designators": "#PWR15-24,#PWR29-40,#PWR94,#PWR100,#PWR113-114,#PWR120,#PWR125-126,#PWR132-134,#PWR136-139,#PWR151-199,C23-40,C58-67,C83,C85,C92-100,C103-153,D2-3,D7,D16,D19-20,D25,D28-43,D48-56,F1,IC15-18,IC20-52,J1,J3-5,J7,J10-17,J19-23,Q1-2,Q7-11,R28,R45-50,R66,R68-93,R99-101,R103-104,R107-108,R115-215,T8-11,TP6-25,TR4-5,U2,U7,U9,U12-13,Y5-6",
     "variants": []
   },
   "sheets": [
