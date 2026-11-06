@@ -1,0 +1,82 @@
+Folha;Referencias;Alteracao;Antes;Depois
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C98;MPN;;GMK316AB7106KL-TR
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C99;MPN;;GMK316AB7106KL-TR
+PowerSupply.kicad_sch;C88;MPN;;CL10B104MB8NNNC
+PowerSupply.kicad_sch;C90;MPN;;GMK316AB7106KL-TR
+PowerSupply.kicad_sch;C91;MPN;;CL10B104MB8NNNC
+Welding_Contact_Detector.kicad_sch;C30,C36,C60,C67;MPN;;CL10B104MB8NNNC
+Welding_Contact_Detector.kicad_sch;R115,R130,R48,R79;MPN;;AC0603FR-072K2L
+Welding_Contact_Detector.kicad_sch;R117,R132,R50,R81;MPN;;RCS060310K0FKEA
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C1;Value;10uF;10u
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C100;Value;0.1uF;100n
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C103;Value;33nF;33n
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C2;Value;0.1uF;100n
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C84;Value;0.1uF;100n
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C97;Value;0.1uF;100n
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C98;Value;10uF;10u
+Charger_Power_BOARD_V_0_7_0.kicad_sch;C99;Value;10uF;10u
+Control_Pilot.kicad_sch;C47;Value;0.1uF;100n
+Control_Pilot.kicad_sch;C48;Value;0.1uF;100n
+Control_Pilot.kicad_sch;C49;Value;220pF;220p
+Control_Pilot.kicad_sch;C50;Value;1uF;1u
+Control_Pilot.kicad_sch;C51;Value;1uF;1u
+Control_Pilot.kicad_sch;C52;Value;10nF;10n
+Control_Pilot.kicad_sch;C53;Value;1uF;1u
+Control_Pilot.kicad_sch;C54;Value;1uF;1u
+Control_Pilot.kicad_sch;C55;Value;1uF;1u
+Control_Pilot.kicad_sch;C56;Value;1.5nF;1n5
+Control_Pilot.kicad_sch;C57;Value;1uF;1u
+MCU.kicad_sch;C41;Value;4pF;4p
+MCU.kicad_sch;C42;Value;4pF;4p
+MCU.kicad_sch;C43;Value;0.1uF;100n
+MCU.kicad_sch;C44;Value;0.1uF;100n
+MCU.kicad_sch;C45;Value;0.1uF;100n
+MCU.kicad_sch;C46;Value;33nF;33n
+PowerSupply.kicad_sch;C104;Value;0.1uF;100n
+PowerSupply.kicad_sch;C86;Value;22uF;22u
+PowerSupply.kicad_sch;C87;Value;22uF;22u
+PowerSupply.kicad_sch;C88;Value;0.1uF;100n
+PowerSupply.kicad_sch;C89;Value;44pF;44p
+PowerSupply.kicad_sch;C90;Value;10uF;10u
+PowerSupply.kicad_sch;C91;Value;0.1uF;100n
+Power_Phase.kicad_sch;C105,C118,C78;Value;0.1uF;100n
+Power_Phase.kicad_sch;C106,C119,C73;Value;33nF;33n
+Power_Phase.kicad_sch;C107,C120,C74;Value;33nF;33n
+Power_Phase.kicad_sch;C108,C121,C79;Value;4.7uF;4u7
+Power_Phase.kicad_sch;C109,C122,C80;Value;0.1uF;100n
+Power_Phase.kicad_sch;C110,C123,C70;Value;1uF;1u
+Power_Phase.kicad_sch;C111,C124,C81;Value;4.7uF;4u7
+Power_Phase.kicad_sch;C112,C125,C82;Value;0.1uF;100n
+Power_Phase.kicad_sch;C113,C126,C75;Value;30pF;30p
+Power_Phase.kicad_sch;C114,C127,C76;Value;30pF;30p
+Power_Phase.kicad_sch;C115,C128,C71;Value;4.7uF;4u7
+Power_Phase.kicad_sch;C116,C129,C72;Value;0.1uF;100n
+Power_Phase.kicad_sch;C117,C77,C83;Value;4.7uF;4u7
+Power_Phase.kicad_sch;C85,C92,C93;Value;33nF;33n
+Power_Phase.kicad_sch;C94,C95,C96;Value;33nF;33n
+Welding_Contact_Detector.kicad_sch;C23,C26,C37,C61;Value;100nF;100n
+Welding_Contact_Detector.kicad_sch;C24,C31,C38,C62;Value;220uF;220u
+Welding_Contact_Detector.kicad_sch;C25,C32,C39,C63;Value;220nF;220n
+Welding_Contact_Detector.kicad_sch;C27,C33,C40,C64;Value;470pF;470p
+Welding_Contact_Detector.kicad_sch;C28,C34,C58,C65;Value;47nF;47n
+Welding_Contact_Detector.kicad_sch;C29,C35,C59,C66;Value;1uF;1u
+Welding_Contact_Detector.kicad_sch;C30,C36,C60,C67;Value;100nF;100n
+Welding_Contact_Detector.kicad_sch;R123,R138,R72,R87;Value;470k;470K
+Welding_Contact_Detector.kicad_sch;R127,R45,R76,R91;Value;1k;1K
+Welding_Contact_Detector.kicad_sch;R128,R46,R77,R92;Value;1k;1K
+Welding_Contact_Detector.kicad_sch;R129,R47,R78,R93;Value;470k;470K
+PowerSupply.kicad_sch;D3;removed field Height;2.61;
+PowerSupply.kicad_sch;F1;removed field Height;3.3;
+PowerSupply.kicad_sch;Q2;removed field Height;2.507;
+PowerSupply.kicad_sch;F1;removed field Mouser Part Number;652-SF-3812TL400T-2;
+PowerSupply.kicad_sch;Q2;removed field Mouser Part Number;78-SQD50P04-13LT4GE3;
+PowerSupply.kicad_sch;F1;removed field Mouser Price/Stock;https://www.mouser.co.uk/ProductDetail/Bourns/SF-3812TL400T-2?qs=gZXFycFWdAPqKNxN0CQ5NQ%3D%3D;
+PowerSupply.kicad_sch;Q2;removed field Mouser Price/Stock;https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQD50P04-13L_T4GE3?qs=MLItCLRbWszJqVTZL95jFQ%3D%3D;
+Power_Phase.kicad_sch;T11,T7,T9;removed field Package;None;
+PowerSupply.kicad_sch;D2;removed field Ref;BZT52C13;
+PowerSupply.kicad_sch;D3;renamed Manufacturer_Name -> Manufacturer;LITTELFUSE;LITTELFUSE
+PowerSupply.kicad_sch;F1;renamed Manufacturer_Name -> Manufacturer;Bourns;Bourns
+PowerSupply.kicad_sch;Q2;renamed Manufacturer_Name -> Manufacturer;Vishay;Vishay
+PowerSupply.kicad_sch;D3;renamed Manufacturer_Part_Number -> MPN;SMBJ14A;SMBJ14A
+PowerSupply.kicad_sch;F1;renamed Manufacturer_Part_Number -> MPN;SF-3812TL400T-2;SF-3812TL400T-2
+PowerSupply.kicad_sch;Q2;renamed Manufacturer_Part_Number -> MPN;SQD50P04-13L_T4GE3;SQD50P04-13L_T4GE3

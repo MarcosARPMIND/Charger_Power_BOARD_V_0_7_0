@@ -7634,7 +7634,7 @@
 				)
 			)
 		)
-		(property "MPN" "RE0603FRE07150RL"
+		(property "MPN" "CRCW0603120RFKEAC"
 			(at 242.57 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -8320,7 +8320,7 @@
 				)
 			)
 		)
-		(property "MPN" "RE0603FRE07150RL"
+		(property "MPN" "AC0603FR-072K2L"
 			(at 242.57 52.07 90)
 			(hide yes)
 			(show_name no)
